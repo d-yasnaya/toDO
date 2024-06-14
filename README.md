@@ -1,1 +1,30 @@
 # toDO
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/на сдачу/style5.css">
+</head>
+<body>
+    <h1>To do list</h1>
+    <div class="flex-wrapper">
+        <div class="add-todo-wrapper">
+            <div class="input-wrapper">
+                <input onkeydown="return checkPhoneKey(event.key)" placeholder="Привет, чем мы сегодня займемся?" type="text" id="description-task">
+            </div>
+            <div class="button-wrapper">
+                <button id="add-task-btn">Добавить</button>
+            </div>
+        </div>
+        <h2>Выполнено:</h2>
+        <div class="todos-wrapper">
+        </div> 
+    </div>
+    <script src="/на сдачу/script5.js"></script>
+</body>
+</html>
