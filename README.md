@@ -8,7 +8,7 @@
     <title>TO DO LIST</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="/на сдачу/style5.css">
+    <link rel="stylesheet" href="//style.css">
 </head>
 <body>
     <h1>To do list</h1>
